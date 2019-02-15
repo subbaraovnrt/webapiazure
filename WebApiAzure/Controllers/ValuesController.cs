@@ -21,7 +21,7 @@ namespace WebApiAzure.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "single value";
         }
 
         // POST api/values
